@@ -19,17 +19,17 @@ public class Main {
                 System.out.println("Bye bye");
                 exit = true;
                 break;
-            } 
+            }
 
             String[] inputArray = cli.split(" ");
-            
-            if (inputArray[0].equals("$last")){
+
+            if (inputArray[0].equals("$last")) {
                 number1 = $last;
             } else {
                 number1 = Double.parseDouble(inputArray[0]);
             }
-            
-            if (inputArray[2].equals("$last")){
+
+            if (inputArray[2].equals("$last")) {
                 number2 = $last;
             } else {
                 number2 = Double.parseDouble(inputArray[2]);
